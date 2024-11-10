@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
     fs.readFile(pagePath, (err, data) => {
         if (err) throw err;
         res.writeHead(statsCode, {'Content-Type' : 'text/html'});
-        res.end(data);
+        res.end(data)
     })
 })
 
