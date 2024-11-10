@@ -1,0 +1,11 @@
+{
+  "name": "basic-info-site",
+  "version": "1.0.0",
+  "description": "Using Node to create a very basic that contains 4 pages: index, about, contact-me and 404.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
