@@ -4,7 +4,7 @@ const path = require("path");
 const fs = require("fs");
 
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 const server = http.createServer((req, res) => {
   let fileName = req.url === "/" ? "/index.html" : `${req.url}.html`;
